@@ -26,7 +26,7 @@ public class LoginUI {
         loginBtn.addActionListener(e ->{
 
             if(usernameTf.getText().equalsIgnoreCase("admin")&&passwordTf.getText().equalsIgnoreCase("admin")){
-                JOptionPane.showMessageDialog(frame,"login successful");
+                JOptionPane.showMessageDialog(frame,"sami successful");
                 frame.dispose();
             }
             usernameTf.setText("");
